@@ -1,0 +1,131 @@
+/* styles.css */
+
+.main {
+    padding: 20px;
+  }
+  
+  .container {
+    /* background-color: #f0f0f0; */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    border: 2px solid #27d1d3;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #1c1e27;
+    border-color: #27d1d3;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 8px;
+  }
+  
+  .social-icons span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 13px;
+    margin-left: 6px;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .blockchain-logo img {
+    height: 32px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+  
+  .details {
+    margin-top: 12px;
+  }
+  
+  .value {
+    font-weight: bold;
+  }
+  
+  .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .pk {
+    line-height: 22px;
+    margin-left: 22px;
+  }
+  
+  .blockchain-logo {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Scrollbar Styles */
+  .container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  .container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+  }
+  
+  /* Handle */
+  .container::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the handle */
+    border-radius: 6px; /* Roundness of the handle */
+  }
+  
+  /* Handle on hover */
+  .container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle on hover */
+  }
+  
+  /* Position scrollbar to the left */
+  .container::-webkit-scrollbar {
+    position: absolute;
+    left: 0;
+  }
+   .main{
+    display: flex;
+   }
+   .d-fl{
+    display: flex;
+   }

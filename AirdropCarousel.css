@@ -1,0 +1,34 @@
+/* AirdropCarousel.css */
+.carousel-container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+    border-color: #2cd4d9;
+
+  }
+ 
+  .carousel-image {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* .carousel-item h4 {
+    margin-top: 10px;
+    color: white;
+  } */
+  
+  .carousel-item p {
+    margin-top: 5px;
+    color: white;
+
+  }
+  

@@ -1,0 +1,146 @@
+/* src/Navbar.css
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  .navbar-item a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggle {
+      display: block;
+    }
+    
+    .navbar-menu {
+      flex-direction: column;
+      width: 100%;
+      display: none;
+      background-color: #333;
+    }
+    
+    .navbar-menu.open {
+      display: flex;
+    }
+    
+    .navbar-item {
+      margin: 10px 0;
+      text-align: center;
+    }
+  } */
+#main-header{
+  background-color: rgba(28, 30, 39, 0.9);
+
+}
+
+body{
+  background-color:  rgb(28 30 39 / 90%);
+} 
+
+.dropdown-menu{
+  background-color: rgb(28 30 39 / 90%);
+}
+.dropdown-menu li a:hover{
+  background-color:  rgb(28 30 39 / 90%);
+}
+
+ 
+.container-fluid{
+  width: 95%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+
+}
+nav li{
+  margin: 12px;
+}
+/* .nav-item:hover{ */
+/* font-size: 12px; */
+/* font-family: DM Sans; */
+    /* transition: transform ease 100ms;} */
+    /* .menu-item {
+      font-family: DM Sans;
+      transition: transform ease 100ms;
+  } */
+   /* Hide dropdown menu by default */
+   .nav-item.dropdown .dropdown-menu {
+    /* display: none; */
+    /* position: absolute; Ensure the dropdown appears above other elements */
+    background-color: #343a40; /* Ensure background color matches */
+    border-radius: 0; /* Remove border-radius */
+
+  }
+
+  /* Show dropdown menu on hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Optional: Additional styling for dropdown items */
+  .nav-item.dropdown .dropdown-item {
+    color: #fff; /* Set text color to white */
+  }
+
+  /* Optional: Hover effect for dropdown items */
+  .nav-item.dropdown .dropdown-item:hover {
+    background-color: #495057; /* Darker background on hover */
+  }
+  .dropdown-menu{
+    border-top: 2px solid #51a0e2;
+    border-radius: none;
+    padding: 20px;
+  }
+ /* Custom styles for the navbar toggler button */
+.navbar-toggler {
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  color: #fff; /* Set text color to white */
+}
+
+/* Custom styles for the navbar toggler icon */
+.navbar-toggler-icon {
+  /* Set the color of the icon to white */
+  fill: #495057;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='%23fff' class='bi bi-list' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M3 2.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z'/%3e%3c/svg%3e");
+}
+.active{
+color: #51a0e2;
+
+}

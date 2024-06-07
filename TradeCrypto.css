@@ -1,0 +1,75 @@
+.trade-crypto-container {
+    /* Add any specific styles for the TradeCrypto component */
+}
+img {
+    max-width: 100%;    
+    height: auto;
+}
+.et_pb_image_wrap{
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: rgba(44, 212, 217, 0.25);
+    background-color: #1f212a;
+
+}
+.et_pb_image .et_pb_image_wrap {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.et_pb_with_border .et_pb_image_wrap {
+    border: 0 solid #333;
+}
+.et_pb_image_3, .et_pb_image_5 {
+    background-color: rgba(255, 255, 255, 0.02);
+    filter: opacity(70%);
+    backface-visibility: hidden;
+    text-align: left;
+    margin-left: 0;
+}
+.et_pb_image {
+    display: block;
+}
+.et_pb_image {
+    /* margin-left: auto; */
+    margin-right: 10px;
+    line-height: 3;
+}
+.et_pb_text_11 h2 {
+    font-size: 40px;
+    text-align: left;
+}
+h2{
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /* text-align: left; */
+
+
+}
+.et_pb_text_inner{
+    text-align: left ;
+    width: 70%;
+}
+.et_pb_button{
+    color: #FFFFFF ;
+    border-width: 2px ;
+    border-color: #FFFFFF;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif ;
+    font-weight: 700 ;
+    background-color: #23252e;
+    padding: 9px;
+    text-decoration: none;
+}
+.et_pb_button {
+    font-size: 16px;
+    border-radius: 50px;
+}
